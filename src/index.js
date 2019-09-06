@@ -1,6 +1,9 @@
 'use strict';
 
-module.exports = function VueCLIAdapter(api, opts = {}) {
+module.exports = function KoaStaticServer(api, opts = {}) {
+
+    // commands
+    require('./commands/version')(api);
 
     api.registerMethod('modifyStaticServerOptions', {
         type: api.API_TYPE.MODIFY,
