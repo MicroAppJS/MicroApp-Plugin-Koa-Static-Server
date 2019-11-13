@@ -9,13 +9,13 @@
     "files": [
         "src"
     ],
-    "homepage": "https://github.com/MicrosApp/MicroApp-Plugin-Koa-Static-Server",
+    "homepage": "https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Static-Server",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MicrosApp/MicroApp-Plugin-Koa-Static-Server.git"
+        "url": "git+https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Static-Server.git"
     },
     "bugs": {
-        "url": "https://github.com/MicrosApp/MicroApp-Plugin-Koa-Static-Server/issues"
+        "url": "https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Static-Server/issues"
     },
     "keywords": [
         "micro",

@@ -10,26 +10,18 @@ module.exports = function KoaStaticServer(api, opts = {}) {
         description: '对静态服务配置进行修改, 需要返回所有参数',
     });
 
-    api.onServerInitDone(({ app, config, options }) => {
+    api.onServerInitDone(({ app, config, args }) => {
         const staticServer = require('./staticServer');
-        const contentBase = config.contentBase;
         // static file
-        const staticOptions = api.applyPluginHooks('modifyStaticServerOptions', config.options || {}) || {};
+        const staticOptions = api.applyPluginHooks('modifyStaticServerOptions', opts || {}) || {};
         if (staticOptions.disabled !== true) {
+            const contentBase = staticOptions.root || '.';
             const koaStatic = staticServer(contentBase, staticOptions);
-            if (koaStatic) {
-                if (options.type === 'vusion') { // 特殊化处理
-                    const oc = options.config;
-                    const prePath = contentBase.replace(oc.root, '');
-                    app.use((ctx, next) => {
-                        if (ctx.url) {
-                            ctx.url = ctx.url.replace(prePath, '');
-                        }
-                        return next();
-                    });
-                }
-                app.use(koaStatic);
-            }
+            app.use(koaStatic);
         }
     });
+};
+
+module.exports.configuration = {
+    description: '针对 Koa 服务的静态服务中间件',
 };
