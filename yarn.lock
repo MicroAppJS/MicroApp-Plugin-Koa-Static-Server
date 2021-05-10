@@ -394,10 +394,10 @@
     webpack-hot-middleware "^2.25.0"
     yargs-parser "^13.1.1"
 
-"@micro-app/core@0.1.0-beta.30":
-  version "0.1.0-beta.30"
-  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.0-beta.30.tgz#1d1f598f37436f6433dbb3794720e84ef7eb24a9"
-  integrity sha512-zQAaDKiLuRaG93ek5UqCL+kbn9XuWjnCD5OnuFv+Eq+/E70+uIMiDS/4L3BREH5qmEdoTm1HGv+wNjbZwvlvkA==
+"@micro-app/core@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.1.tgz#49334e96e880b72f2ae97d733dae1d2da73f9d15"
+  integrity sha512-QCb421N4fAYWd1VAMVxy4qnEjdsuFys2UqbUukqcvVcCD80/5hd5GlmX/N23HfbcraZCRj4DjNDoVEqJc2acrA==
   dependencies:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
@@ -3507,9 +3507,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.2.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-driver@^1.2.7:
   version "1.2.7"
