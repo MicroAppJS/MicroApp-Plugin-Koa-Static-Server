@@ -394,10 +394,10 @@
     webpack-hot-middleware "^2.25.0"
     yargs-parser "^13.1.1"
 
-"@micro-app/core@0.1.0-beta.30":
-  version "0.1.0-beta.30"
-  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.0-beta.30.tgz#1d1f598f37436f6433dbb3794720e84ef7eb24a9"
-  integrity sha512-zQAaDKiLuRaG93ek5UqCL+kbn9XuWjnCD5OnuFv+Eq+/E70+uIMiDS/4L3BREH5qmEdoTm1HGv+wNjbZwvlvkA==
+"@micro-app/core@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.1.tgz#49334e96e880b72f2ae97d733dae1d2da73f9d15"
+  integrity sha512-QCb421N4fAYWd1VAMVxy4qnEjdsuFys2UqbUukqcvVcCD80/5hd5GlmX/N23HfbcraZCRj4DjNDoVEqJc2acrA==
   dependencies:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
@@ -3862,9 +3862,9 @@ normalize-path@^2.1.1:
     remove-trailing-separator "^1.0.1"
 
 normalize-url@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.3.0.tgz#9c49e10fc1876aeb76dba88bf1b2b5d9fa57b2ee"
-  integrity sha512-0NLtR71o4k6GLP+mr6Ty34c5GA6CMoEsncKJxvQd8NzPxaHRJNnb5gZE8R1XF4CPIS7QPHLJ74IFszwtNVAHVQ==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
+  integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 npm-bundled@^1.0.1:
   version "1.0.6"
