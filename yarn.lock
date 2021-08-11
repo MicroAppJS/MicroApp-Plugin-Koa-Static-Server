@@ -394,10 +394,10 @@
     webpack-hot-middleware "^2.25.0"
     yargs-parser "^13.1.1"
 
-"@micro-app/core@0.1.0-beta.30":
-  version "0.1.0-beta.30"
-  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.0-beta.30.tgz#1d1f598f37436f6433dbb3794720e84ef7eb24a9"
-  integrity sha512-zQAaDKiLuRaG93ek5UqCL+kbn9XuWjnCD5OnuFv+Eq+/E70+uIMiDS/4L3BREH5qmEdoTm1HGv+wNjbZwvlvkA==
+"@micro-app/core@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@micro-app/core/-/core-0.1.1.tgz#49334e96e880b72f2ae97d733dae1d2da73f9d15"
+  integrity sha512-QCb421N4fAYWd1VAMVxy4qnEjdsuFys2UqbUukqcvVcCD80/5hd5GlmX/N23HfbcraZCRj4DjNDoVEqJc2acrA==
   dependencies:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
@@ -4227,9 +4227,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^2.0.0:
   version "2.0.0"
